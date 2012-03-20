@@ -28,3 +28,5 @@ __END__
 
 @@ default
 <p><%= suggestion %></p>
+<br />
+<a href="/">didn't work, show me another</a>
