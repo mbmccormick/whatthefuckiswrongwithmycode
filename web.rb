@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby -I ../lib -I lib
 require 'sinatra'
 
-data = ["try consulting an API", "use more for loops", "store the data in a hash table"]
+data = ["try consulting an API", "use more for loops", "store the data in a hash table", "reboot your computer", "reverse the linked list", "use stdout instead of stderr", "don't use C"]
 
 get '/' do
   erb :default, :locals => { :suggestion => data.sample }
