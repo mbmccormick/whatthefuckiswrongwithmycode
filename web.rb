@@ -27,6 +27,7 @@ __END__
       
       a {
         color: #2382C8;
+        font-size: 36px;
       }
       
       p {
@@ -41,5 +42,6 @@ __END__
 </html>
 
 @@ default
-<p><%= suggestion %></p>
+<p style="color: #cccccc;"><%= suggestion %></p>
+<br />
 <a href="/">that didn't fucking work</a>
