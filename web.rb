@@ -17,6 +17,8 @@ __END__
     <style type="text/css">
       body {
         font-family: Helvetica;
+        text-transform: uppercase;
+        font-size: 22px;
       }
     </style>
   </head>
@@ -29,4 +31,4 @@ __END__
 @@ default
 <p><%= suggestion %></p>
 <br />
-<a href="/">didn't work, show me another</a>
+<a href="/">that didn't fucking work</a>
