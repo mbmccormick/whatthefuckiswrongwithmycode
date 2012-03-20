@@ -9,7 +9,10 @@ data = ["try consulting an API",
         "use stdout instead of stderr", 
         "don't use C", 
         "make a new array", 
-        "fix the makefile"]
+        "fix the makefile",
+        "dereference a pointer",
+        "add more comments",
+        "use more semaphores"]
 
 get '/' do
   erb :default, :locals => { :suggestion => data.sample }
