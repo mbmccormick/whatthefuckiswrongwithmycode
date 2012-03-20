@@ -25,7 +25,6 @@ __END__
       
       h1 {
         font-size: 60px;
-        font-weight: normal;
         margin: 0px;
         padding: 0px;
       }
