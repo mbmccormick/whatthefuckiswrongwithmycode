@@ -31,6 +31,7 @@ __END__
       
       p {
         font-family: consolas, courier;
+        text-transform: lowercase;
         margin: 0px;
       }
       
