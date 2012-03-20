@@ -16,32 +16,39 @@ __END__
     <title>what the fuck is wrong with my code</title>
     <style type="text/css">
       body {
-        font-family: Helvetica;
+        font: Helvetica 60px bold;
         text-transform: uppercase;
-        font-size: 60px;
         padding: 20px;
         width: 600px;
         margin: 0px auto;
-        font-weight: bold;
       }
       
-      a {
-        color: #2382C8;
-        font-size: 36px;
+      h1 {
+        font-size: 60px;
+        font-weight: normal;
+        margin: 0px;
+        padding: 0px;
       }
       
       p {
-        margin: 0px; 
+        margin: 0px
+        font-family: consolas, courier;
+      }
+      
+      a {
+        color: #aaaaaa;
+        font-size: 36px;
       }
     </style>
   </head>
   <body>
-    <p>what the fuck is wrong with my code</p>
+    <h1>what the fuck is wrong with my code</h1>
+    <br />
     <%= yield %>
   </body>
 </html>
 
 @@ default
-<p style="color: #cccccc;"><%= suggestion %></p>
+<p><%= suggestion %></p>
 <br />
 <a href="/">that didn't fucking work</a>
