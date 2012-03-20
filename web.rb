@@ -19,11 +19,19 @@ __END__
         font-family: Helvetica;
         text-transform: uppercase;
         font-size: 22px;
+        padding: 20px;
+        width: 600px;
+        margin: 0px auto;
+        font-weight: bold;
+      }
+      
+      a {
+        color: #2382C8;
       }
     </style>
   </head>
   <body>
-    <h1>what the fuck is wrong with my code</h1>
+    <p>what the fuck is wrong with my code</p>
     <%= yield %>
   </body>
 </html>
