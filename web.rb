@@ -21,7 +21,7 @@ __END__
     </style>
   </head>
   <body>
-    <h1>what the fuck is wrong with my code></h1>
+    <h1>what the fuck is wrong with my code</h1>
     <%= yield %>
   </body>
 </html>
