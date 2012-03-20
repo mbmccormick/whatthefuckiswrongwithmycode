@@ -31,8 +31,8 @@ __END__
       }
       
       p {
-        margin: 0px
         font-family: consolas, courier;
+        margin: 0px;
       }
       
       a {
