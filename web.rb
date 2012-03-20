@@ -1,7 +1,15 @@
 #!/usr/bin/env ruby -I ../lib -I lib
 require 'sinatra'
 
-data = ["try consulting an API", "use more for loops", "store the data in a hash table", "reboot your computer", "reverse the linked list", "use stdout instead of stderr", "don't use C", "make a new array", "fix the makefile"]
+data = ["try consulting an API", 
+        "use more for loops", 
+        "store the data in a hash table", 
+        "reboot your computer", 
+        "reverse the linked list", 
+        "use stdout instead of stderr", 
+        "don't use C", 
+        "make a new array", 
+        "fix the makefile"]
 
 get '/' do
   erb :default, :locals => { :suggestion => data.sample }
@@ -13,12 +21,12 @@ __END__
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>what the fuck is wrong with my code</title>
+    <title>What the fuck is wrong with my code?</title>
     <style type="text/css">
       body {
         font: bold 60px Helvetica;
         text-transform: uppercase;
-        padding: 20px;
+        padding: 30px;
         width: 600px;
         margin: 0px auto;
       }
