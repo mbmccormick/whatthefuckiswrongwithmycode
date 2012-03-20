@@ -16,7 +16,7 @@ __END__
     <title>what the fuck is wrong with my code</title>
     <style type="text/css">
       body {
-        font: Helvetica 60px bold;
+        font: bold 60px Helvetica;
         text-transform: uppercase;
         padding: 20px;
         width: 600px;
