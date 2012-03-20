@@ -30,7 +30,7 @@ __END__
         font: bold 60px Helvetica;
         text-transform: uppercase;
         padding: 30px;
-        width: 600px;
+        width: 700px;
         margin: 0px auto;
       }
       
