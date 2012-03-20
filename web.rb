@@ -18,7 +18,7 @@ __END__
       body {
         font-family: Helvetica;
         text-transform: uppercase;
-        font-size: 22px;
+        font-size: 60px;
         padding: 20px;
         width: 600px;
         margin: 0px auto;
@@ -27,6 +27,10 @@ __END__
       
       a {
         color: #2382C8;
+      }
+      
+      p {
+        margin: 0px; 
       }
     </style>
   </head>
@@ -38,5 +42,4 @@ __END__
 
 @@ default
 <p><%= suggestion %></p>
-<br />
 <a href="/">that didn't fucking work</a>
