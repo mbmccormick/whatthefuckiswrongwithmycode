@@ -12,7 +12,12 @@ data = ["try consulting an API",
         "fix the makefile",
         "dereference a pointer",
         "add more comments",
-        "use more semaphores"]
+        "use more semaphores",
+        "create a new API",
+        "just use a bubblesort",
+        "commit your code",
+        "put your data on a binary tree",
+        "make more pointers"]
 
 get '/' do
   erb :default, :locals => { :suggestion => data.sample }
